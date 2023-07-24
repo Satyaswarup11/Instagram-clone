@@ -1,0 +1,26 @@
+
+/* Adjust header and post layout for mobile devices */
+@media (max-width: 600px) {
+    .app_header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .app_headerButtons {
+      margin-top: 10px;
+    }
+  
+    .app_posts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Making the post container responsive */
+  .post {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
